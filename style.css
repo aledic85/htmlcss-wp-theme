@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("img/natural-pattern.png");
+}
+
+#main-container {
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.image-logo {
+  width: 100%;
+  padding: 5px;
+  background-image: url("img/natural-header.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.image-logo > img {
+  width: 50%;
+}
+
+.image-logo > h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.nav {
+  width: 100%
+}
+
+.nav:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.nav > .menu {
+  float: left;
+  width: 14.28%;
+  height: 44px;
+  background-color: #666;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: white;
+  line-height: 44px;
+}
