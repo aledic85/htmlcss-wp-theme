@@ -165,3 +165,43 @@ a:hover {
   cursor: pointer;
   background-color: #cecece;
 }
+
+footer {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  padding: 3px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.social:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.soc {
+  float: left;
+  width: 33.33%;
+  padding: 4%;
+}
+
+.soc > a {
+  color: #cecece;
+}
+
+.soc > a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.soc > a > i {
+  font-size: 40px;
+}
+
+footer p {
+  font-style: italic;
+  color: #cecece;
+}
