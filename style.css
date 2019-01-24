@@ -11,7 +11,7 @@ body {
 #main-container {
   width: 1000px;
   margin: auto;
-  background-color: white;
+  background-color: transparent;
   margin-top: 20px;
 }
 
@@ -21,6 +21,7 @@ body {
   background-image: url("img/natural-header.jpg");
   background-size: cover;
   text-align: center;
+  border: 10px solid white;
 }
 
 .image-logo > img {
@@ -34,7 +35,7 @@ body {
 }
 
 .nav {
-  width: 100%
+  width: 100%;
 }
 
 .nav:after {
@@ -45,7 +46,7 @@ body {
 
 .nav > .menu {
   float: left;
-  width: 14.28%;
+  width: calc(100%/7);
   height: 44px;
   background-color: #666;
   text-align: center;
@@ -54,4 +55,113 @@ body {
   font-size: 11px;
   color: white;
   line-height: 44px;
+}
+
+main {
+  width: 100%;
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+main:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.col {
+  float: left;
+  background-color: white;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  padding: 3px;
+}
+
+p {
+  padding: 20px;
+  line-height: 30px;
+  color: black;
+}
+
+h1 {
+  color: #504741;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0px rgba(0,0,0,.1);
+  padding: 20px;
+}
+
+h2 {
+  color: #504741;
+  padding: 20px;
+}
+
+.col1 {
+  width: 20%;
+}
+
+.col2 {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.col3 {
+  width: 20%;
+  float: left;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  padding: 3px;
+}
+
+.org-th:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.syn1 {
+  float: left;
+  width: 10%;
+}
+
+.syn2 {
+  float: left;
+  width: 80%;
+}
+
+i.fas {
+  color: orange;
+  font-size: 30px;
+  line-height: 3;
+  margin-left: 5px;
+}
+
+.link-art {
+  padding: 20px;
+}
+
+.link-art:hover {
+  background-color: #cecece;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.widget {
+  background-color: white;
+  margin-bottom: 20%;
+  border-radius: 5px;
+}
+
+.menu:hover {
+  cursor: pointer;
+  background-color: #cecece;
 }
